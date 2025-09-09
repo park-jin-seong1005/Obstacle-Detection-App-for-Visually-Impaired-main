@@ -14,6 +14,7 @@
 # 개발 목표  
 시각장애인 및 교통 약자를 위한 **실시간 보행 안전 보조 시스템**을 설계하여,  
 개인 이동형 장비(예: 지팡이, 휴대 장치)에 부착 가능한 형태로 **보행자 감지 및 사고 예방 기능** 제공  
+<img width="1145" height="460" alt="image" src="https://github.com/user-attachments/assets/2d2b0486-1162-4c99-a1fa-b3669c115ff6" />
 
 # 기술 스택  
 - Computer Vision: YOLOv8 (객체 인식)  
@@ -28,7 +29,22 @@
 - MiDaS 모델을 활용한 **객체 깊이 추정** 
 - **실시간 카메라 영상 처리** 및 위험 상황 탐지 로직 구현  
 - **음성 안내 시스템**을 통한 사용자 알림 제공  
-- 서버–클라이언트 구조 기반 **데이터 통신 및 로그 관리 시스템** 설계  
+- 서버–클라이언트 구조 기반 **데이터 통신 및 로그 관리 시스템** 설계
+- 
+# 제안 시스템
+
+## 후방카메라
+후방 카메라는 차량 뒤쪽 상황을 실시간으로 촬영하여, 주차나 후진 시 안전을 지원합니다.
+<img src="https://github.com/user-attachments/assets/e01d750f-f18b-4d03-9d58-bcbf6578b29b" style="max-width: 100%; height: auto;" />
+
+## 위험도분석
+위험도 분석 시스템은 센서 데이터를 기반으로 주변 위험 요소를 평가하고, 운전자에게 경고를 제공합니다.
+<img src="https://github.com/user-attachments/assets/cd9ed1bb-ee85-44e3-a32c-87bceafaa830" style="max-width: 100%; height: auto;" />
+
+## 제어 시스템
+제어 시스템은 차량의 주행 및 안전 기능을 자동으로 조정하여, 사고 예방과 안정적인 운행을 돕습니다.
+<img src="https://github.com/user-attachments/assets/fb35728c-78fe-4328-807a-6e584e153074" style="max-width: 100%; height: auto;" />
+
 
 # 성과 / 배운 점  
 - 창업 아이디어 공모전 출품 및 실현 가능성 검토  
